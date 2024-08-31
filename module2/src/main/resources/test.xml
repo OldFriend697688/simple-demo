@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <section id="fiction">
+        <shelf category="fantasy">
+            <book>
+                <title>The Lord of the Rings</title>
+                <author>J.R.R. Tolkien</author>
+                <details>
+                    <publisher>Allen & Unwin</publisher>
+                    <year>1954</year>
+                    <volume>
+                        <part number="1">
+                            <name>The Fellowship of the Ring</name>
+                            <chapters>
+                                <chapter number="1">A Long-expected Party</chapter>
+                                <chapter number="2">
+                                    <p><font>The Shadow of the Past</font></p>
+                                </chapter>
+                            </chapters>
+                        </part>
+                    </volume>
+                </details>
+            </book>
+        </shelf>
+    </section>
+</library>
