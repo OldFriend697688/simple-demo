@@ -8,7 +8,7 @@ package com.of;
 public class TestMultipleSelections {
     public static void main(String[] args) {
         // 输出一些内容
-        System.out.println("程序开始执行...");
+        System.out.println("程序开始执行..");
 
         // 输出九九乘法表
         printMultiplicationTable();

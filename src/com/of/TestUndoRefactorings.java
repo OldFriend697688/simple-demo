@@ -9,7 +9,7 @@ package com.of;
  */
 public class TestUndoRefactorings {
     public static void main(String[] args) {
-        int age = 1;
         String name = "TestName";
+        int age = 1;
     }
 }

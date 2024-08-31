@@ -1,7 +1,5 @@
 package com.of;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 /**
@@ -15,8 +13,8 @@ public class TestPolymorphismExample {
          * 父类的引用类型变量指向子类的对象，实际的对象类型将由 JVM 在运行时进行动态绑定，
          * 这也是 Java 中向上转型的默认行为，它不需要进行强制类型转换操作.
          * */
-        Animal dog = new Dog(); // 实际的类型是 Dog
         Animal cat = new Cat(); // 实际的类型是 Cat
+        Animal dog = new Dog(); // 实际的类型是 Dog
 
         /*
          * 如下两行代码看似调用的均是 Animal 类中的 eat 方法，

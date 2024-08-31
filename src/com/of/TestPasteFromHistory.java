@@ -6,7 +6,7 @@ package com.of;
  * @author OldFriend
  */
 public class TestPasteFromHistory {
-    static boolean b1 = false;
+    static boolean b1 = true;
 
     public static void main(String[] args) {
         // int age = 29;

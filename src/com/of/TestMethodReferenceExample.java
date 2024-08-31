@@ -38,7 +38,7 @@ import java.util.stream.Collectors;
 public class TestMethodReferenceExample {
     public static void main(String[] args) {
         // 使用特定类型非特定对象的实例方法引用
-        Integer[] integers = {1, 2, 4, 7, 0, 3, 22, 11, 88, 1};
+        Integer[] integers = {1, 2, 4, 7, 0, 3, 22, 11, 88, 1, 2};
         Arrays.sort(integers, Integer::compareTo);
         System.out.println(Arrays.toString(integers));
 
