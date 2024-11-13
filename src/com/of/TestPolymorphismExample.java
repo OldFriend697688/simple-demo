@@ -47,9 +47,6 @@ public class TestPolymorphismExample {
         System.out.println(cat.getType());
         System.out.println(dog.getType());
         System.out.println(dog.getName());
-
-     
-
     }
 
     /**
